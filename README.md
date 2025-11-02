@@ -7,7 +7,7 @@
 ## Project Topic
 
 Development of a web application for physicians that automatically analyzes chest X-ray images and provides preliminary diagnoses using deep learning methods.
-The project is based on the open [NIH Chest X-rays](https://www.kaggle.com/datasets/nih-chest-xrays/data) dataset.
+The project is based on the open [VinBigData Chest X-ray](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection/data) dataset.
 
 Goal: Assist physicians in preliminary image analysis and reduce workload during initial diagnostics.
 
@@ -49,6 +49,7 @@ Goal: Assist physicians in preliminary image analysis and reduce workload during
 - scikit-image (for LBP and HOG feature extraction)
 - FastAPI, Streamlit
 - Docker, Git
+- uv
 
 ---
 
@@ -88,8 +89,8 @@ Runs type checking (pyright) and linting (flake8) on all code and notebooks.
 
 ## Dataset
 
-Source: [NIH Chest X-rays](https://www.kaggle.com/datasets/nih-chest-xrays/data)
-Contains over 100,000 chest X-ray images with annotations for 14 types of diseases.
+Source: [VinBigData Chest X-ray](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection/data)
+Contains over 18,000 chest X-ray images with annotations for 15 types of diseases.
 
 ---
 
