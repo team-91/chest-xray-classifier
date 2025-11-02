@@ -7,7 +7,7 @@
 ## Итоговая тема
 
 Разработка веб-приложения для врачей, позволяющего автоматически анализировать рентгеновские снимки грудной клетки и получать предварительный диагноз с помощью методов глубинного обучения.
-Проект основан на открытом датасете [NIH Chest X-rays](https://www.kaggle.com/datasets/nih-chest-xrays/data).
+Проект основан на открытом датасете [VinBigData Chest X-ray](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection/data).
 
 Цель - помочь врачам в предварительном анализе снимков и снизить нагрузку при первичной диагностике.
 
@@ -90,8 +90,8 @@ make lint
 
 ## Данные
 
-Источник: [NIH Chest X-rays](https://www.kaggle.com/datasets/nih-chest-xrays/data)
-Содержит более 100 000 рентгеновских снимков грудной клетки с аннотациями по 14 видам заболеваний.
+Источник: [VinBigData Chest X-ray](https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection/data)
+Содержит более 18,000 рентгеновских снимков грудной клетки с аннотациями по 15 видам заболеваний.
 
 ---
 

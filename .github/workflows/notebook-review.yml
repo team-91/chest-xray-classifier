@@ -41,7 +41,7 @@ jobs:
 
             This PR contains changes to Jupyter notebooks. For a better review experience with visual diffs:
 
-            **[View Notebook Diff on ReviewNB](${reviewnbUrl})**`;
+            **View Notebook Diff on &nbsp; <a href="${reviewnbUrl}"><img align="absmiddle"  alt="ReviewNB" height="30" class="BotMessageButtonImage" src="https://raw.githubusercontent.com/ReviewNB/support/master/images/button_reviewnb.png" style="height: 30px !important;"/></a>**`;
 
             if (botComment) {
               await github.rest.issues.updateComment({
